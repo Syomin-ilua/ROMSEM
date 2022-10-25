@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"title": "Саломон сет",
+		"pieces": 30,
+		"weight": 1050,
+		"price": 1500,
+		"imgSrc": "main_image/cart_image/solomon.png"
+	},
+	{
+		"id": 2,
+		"title": "Филадельфия и лосось сет",
+		"pieces": 36,
+		"weight": 1260,
+		"price": 1499,
+		"imgSrc": "main_image/cart_image/philadelphia_salmon.png"
+	},
+	{
+		"id": 3,
+		"title": "Самая большая Филадельфия",
+		"pieces": 45,
+		"weight": 2050,
+		"price": 2100,
+		"imgSrc": "main_image/cart_image/big_philadelphia.png"
+	},
+	{
+		"id": 4,
+		"title": "Сет 6 Филадельфий",
+		"pieces": 46,
+		"weight": 1320,
+		"price": 1559,
+		"imgSrc": "main_image/cart_image/six_philadelphia.png"
+	},
+	{
+		"id": 5,
+		"title": "Топовый сет",
+		"pieces": 40,
+		"weight": 1020,
+		"price": 1519,
+		"imgSrc": "main_image/cart_image/top.png"
+	},
+	{
+		"id": 6,
+		"title": "Камикадзе сет",
+		"pieces": 52,
+		"weight": 1200,
+		"price": 1469,
+		"imgSrc": "main_image/cart_image/kamikaze.png"
+	},
+	{
+		"id": 7,
+		"title": "Сет 4 Филадельфии",
+		"pieces": 32,
+		"weight": 1100,
+		"price": 1559,
+		"imgSrc": "main_image/cart_image/four_philadelphia.png"
+	},
+	{
+		"id": 8,
+		"title": "Филадельфия LOVE сет",
+		"pieces": 40,
+		"weight": 1000,
+		"price": 1479,
+		"imgSrc": "main_image/cart_image/philadelphia_love.png"
+	},
+	{
+		"id": 9,
+		"title": "Якудза сет",
+		"pieces": 50,
+		"weight": 1270,
+		"price": 1499,
+		"imgSrc": "main_image/cart_image/yakuza.png"
+	}
+]
