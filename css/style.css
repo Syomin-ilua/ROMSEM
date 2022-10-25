@@ -1,0 +1,875 @@
+/* Шапка сайта */
+
+.header {
+    width: 100%;
+}
+.header_container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_item {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo_img {
+    width: 87px;
+    height: 97px;
+}
+.working_hours_wrap {
+    display: flex;
+    align-items: center;
+}
+.working {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #A4ACAD;
+}
+.working_contact {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.working_contact_title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.working_contact_subtitle {
+    font-size: 14px;
+    color: #FF9846;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.working_hours {
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+.working_hours_img {
+    margin-right: 5px;
+}
+.working_hours_title {
+    font-family: 'Open Sans', sans-serif;
+    color: #A4ACAD;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.working_location {
+
+}
+.working_location_title {
+    font-family: 'Open Sans', sans-serif;
+    color: #A4ACAD;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+}
+.working_location_subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+}
+.nav_link_title {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+.nav_link_title:hover {
+    color: #FF9846;
+    transition: all 0.2s;
+}
+.nav_link_burger {
+    display: none;
+}
+.btn_burger {
+    display: none;
+}
+
+/* Категории */
+
+.section_categories {
+    width: 100%;
+}
+.categories {
+    max-width: 1180px;
+    margin: 10px auto;
+}
+.main_banner_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_banner_image {
+    width: 65%;
+    margin: 0 auto;
+}
+.categories_title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.categories_comment_title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.categories_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title_categor {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.chicken_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.chicken_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.eel_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.eel_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.corn_dog_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.corn_dog_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.pizza_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.pizza_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.stocks_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.stocks_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.sets_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.sets_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.sets_image {
+    width: 224px;
+    height: 200px;
+}
+.wok_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.wok_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.wok_image {
+    width: 224px;
+    height: 200px;
+}
+.rols_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.rols_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.rols_image {
+    width: 224px;
+    height: 200px;
+}
+.sushi_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.sushi_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.sushi_image {
+    width: 224px;
+    height: 200px;
+}
+.sups_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.sups_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.sups_image {
+    width: 224px;
+    height: 200px;
+}
+.salads_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.salads_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.salads_image {
+    width: 224px;
+    height: 200px;
+}
+.drinks_wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.drinks_wrap:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.drinks_image {
+    width: 224px;
+    height: 200px;
+}
+
+/* Секция "Сеты" (новинки и популярные) */
+
+.section_sets {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sets {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.set_s {
+    width: 355px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.structur_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+}
+.price {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.to-cart {
+    width: 143px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F2F2F2;
+    background: #F46D40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-cart:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.button_wrap_sect {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.button_sets {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.button_sets:hover {
+    color: rgb(0, 0, 0);
+}
+.out_set .slick-arrow{
+    position: absolute;
+    top: 50%; 
+    z-index: 2;
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+  }
+.out_set_now .slick-arrow.slick-prev{
+    background: url('../main_image/arrow_icon/prev_arrow.svg') 0 0 / 100% no-repeat;
+}
+.out_set_now .slick-arrow.slick-next{
+    background: url('../main_image/arrow_icon/next_arrow.svg') 0 0 / 100% no-repeat;
+}
+.out_set_popular .slick-arrow.slick-prev{
+    background: url('../main_image/arrow_icon/prev_arrow.svg') 0 0 / 100% no-repeat;
+}
+.out_set_popular .slick-arrow.slick-next{
+    background: url('../main_image/arrow_icon/next_arrow.svg') 0 0 / 100% no-repeat;
+}
+
+/* Заказать суши в Бишкеке */
+
+.section_aboutUS {
+    width: 100%;
+}
+.aboutUS {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.about_title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+}
+.about_subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Подвал сайта */
+
+.section_footer {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.footer {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #A4ACAD;
+}
+.aboutUS_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.about_link {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+}
+.about_link:hover {
+    color:#FF9846;
+}
+.social_network_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.network_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+}
+.footer_link {
+    margin-right: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+.footer_link:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.contact_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #A4ACAD;
+}
+
+/* Медиа запросы */
+
+@media(max-width: 1180px) {
+    .header_container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sets {
+        width: 95%;
+        margin: 0 auto;
+    }
+   .categories {
+        width: 95%;
+   }
+   .aboutUS {
+        width: 95%;
+   }
+   .footer {
+        width: 95%;
+   }
+}
+@media(max-width: 1115px) {
+    .chicken_wrap {
+        margin-right: 15px;
+    }
+    .eel_wrap {
+        margin-right: 15px;
+    }
+}
+@media(max-width: 890px) {
+    .footer {
+        flex-direction: column;
+    }
+    .aboutUS_link {
+        margin-bottom: 10px;
+    }
+    .about_link {
+        text-align: center;
+    }
+    .contact_info {
+        margin-top: 10px;
+    }
+    .contact_title {
+        text-align: center;
+    }
+    .network_title {
+        text-align: center;
+    }
+    .footer_link:nth-child(3) {
+        margin-right: 0px;
+    }
+}
+@media(max-width: 700px) {
+    .nav {
+        display: none;
+    }
+    .btn_burger {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 23px;
+        margin-right: 10px;
+    }
+    .btn_burger span:nth-of-type(1) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger span:nth-of-type(2) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger span:nth-of-type(3) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(1) {
+        transform: translateY(8px) rotate(45deg);
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(2) {
+        transform: rotate(-45deg);
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(3) {
+        transition: all .3s;
+        display: none;
+    }
+    .nav_link_burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1001;
+        top: 100px;
+        background-color: #fff;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+    .nav_link_burger.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(0);
+        transition: all 0.3s;
+    }
+    .nav_link_title_burger {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        color: #000;
+        margin-bottom: 30px;
+        transition: all .3s;
+    }
+    .nav_link_title_burger:hover {
+        color: #FF9846;
+        transition: all .3s;
+    }
+    .nav_link_title_burger:nth-child(1) {
+        margin-top: 75px;
+    }
+}
+@media(max-width: 770px) {
+    .header_contact_info {
+        border: none;
+    }
+    .header_info_link {
+        width: 50px;
+        border: none;
+    }
+    .chicken_wrap:hover {
+        transform: scale(1);
+    }
+    .eel_wrap:hover {
+        transform: scale(1);
+    }
+    .corn_dog_wrap:hover {
+        transform: scale(1);
+    }
+    .pizza_wrap:hover {
+        transform: scale(1);
+    }
+    .stocks_wrap:hover {
+        transform: scale(1);
+    }
+    .drinks_wrap:hover {
+        transform: scale(1);
+    }
+    .sups_wrap:hover {
+        transform: scale(1);
+    }
+    .sushi_wrap:hover {
+        transform: scale(1);
+    }
+    .salads_wrap:hover {
+        transform: scale(1);
+    }
+    .rols_wrap:hover {
+        transform: scale(1);
+    }
+    .wok_wrap:hover {
+        transform: scale(1);
+    }
+    .sets_wrap:hover {
+        transform: scale(1);
+    }
+}
+@media(max-width: 740px) {
+    .main_banner_wrapper {
+        display: none;
+    }
+}
+@media(max-width: 700px) {
+    .out_set_now {
+
+    }
+    .set_wrap {
+    }
+    .set_s {
+        width: 225px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .cart_img {
+        width: 150px;
+    }
+    .cart_title {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .structur_title {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .price {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .to-cart {
+        padding-top: 0px;
+        width: 100px;
+        height: 40px;
+    }
+}
+@media(max-width: 655px) {
+    
+}
+@media(max-width: 550px) {
+    .about_title {
+        font-size: 18px;
+    }
+    .about_subtitle {
+        font-size: 16px;
+    }
+    .about_link {
+        font-size: 16px;
+    }    
+    .network_title {
+        font-size: 16px;
+    }
+    .contact_title {
+        font-size: 16px;
+    }
+    .chicken_wrap {
+        margin-right: 0px;
+    }
+    .eel_wrap {
+        margin-right: 0px;
+    }
+    .chicken_image {
+        width: 320px;
+        height: 155px;
+    }
+    .chicken_title {
+        font-size: 20px;
+    }
+    .eel_title {
+        font-size: 20px;
+    }
+    .eel_image { 
+        width: 155px;
+        height: 155px;
+    }
+    .corn_dog_title {
+        font-size: 20px;
+    }
+    .corn_dog_image {
+        width: 155px;
+        height: 155px;
+    }
+    .pizza_title {
+        font-size: 20px;
+    }
+    .pizza_image {
+        width: 320px;
+        height: 155px;
+    }
+    .stocks_title {
+        font-size: 20px;
+    }
+    .stocks_image {
+        width: 320px;
+        height: 155px;
+    }
+    .drinks_image {
+        width: 155px;
+        height: 155px;
+    }
+    .drinks_title {
+        font-size: 20px;
+    }
+    .sups_image {
+        width: 155px;
+        height: 155px;
+    }
+    .sups_title {
+        font-size: 20px;
+    }
+    .sushi_image {
+        width: 155px;
+        height: 155px;
+    }
+    .sushi_title {
+        font-size: 20px;
+    }
+    .rols_image {
+        width: 155px;
+        height: 155px;
+    }
+    .rols_title {
+        font-size: 20px;
+    }
+    .salads_image {
+        width: 155px;
+        height: 155px;
+    }
+    .salads_title {
+        font-size: 20px;
+    }
+    .sets_image {
+        width: 155px;
+        height: 155px;
+    }
+    .sets_title {
+        font-size: 20px;
+    }
+    .wok_image {
+        width: 155px;
+        height: 155px;
+    }
+    .wok_title {
+        font-size: 20px;
+    }
+}
+@media(max-width: 540px) {
+    .set_s {
+        width: 204px;
+    }
+}
+@media(max-width: 500px) {
+    .button_sets {
+        font-size: 18px;
+    }
+    .button_wrap_sect {
+        width: 80px;
+        margin: 30px auto;
+    }
+}
+@media(max-width: 470px) {
+    .logo_item {
+        width: 70px;
+    }
+    .logo_img {
+        width: 70px;
+    }
+    .working_location {
+        display: none;
+    }
+    .working {
+        border-right: none;
+    }
+    .working_hours {
+        margin-right: 0px;
+    }
+    .working_contact_title {
+        font-size: 12px;
+    }
+    .working_contact_subtitle {
+        font-size: 12px;
+    }
+    .working_hours_title {
+        font-size: 12px;
+    }
+}
+@media(max-width: 330px) {
+    .chicken_image {
+        width: 265px;
+        height: 135px;
+    }
+    .pizza_image {
+        width: 265px;
+        height: 135px;
+    }
+    .stocks_image {
+        width: 265px;
+        height: 135px;
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <title>Отзывы</title>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+
+    <header class="header">
+        <div class="header_container">
+
+            <div class="logo_item">
+                <a href="index.html"><img class="logo_img" src="main_image/romsem_logo.svg" alt="Логотип: ROMSEM"></a>
+            </div>
+
+            <div class="working_hours_wrap">
+                <div class="working">
+                    <div class="working_contact">
+                        <p class="working_contact_title">Наш телефон</p>
+                        <p class="working_contact_subtitle">+996 705 188 955 <br>
+                        +996 555 188 955</p>
+                    </div>
+                    <div class="working_hours">
+                        <img class="working_hours_img" src="main_image/watch_icon.svg" alt="">
+                        <p class="working_hours_title">работаем с 10:00 до 00:00</p>
+                    </div>
+                </div>
+
+                <div class="working_location">
+                    <p class="working_location_title">Город:</p>
+                    <p class="working_location_subtitle">Бишкек</p>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <div class="nav_link">
+                    <a class="nav_link_title" href="index.html">Главная</a>
+                </div>
+            </nav>
+
+
+                <div class="btn_burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+                <div class="nav_link_burger">
+                    <a class="nav_link_title_burger" href="index.html">Главная</a>
+                </div>
+
+        </div>
+    </header>
+
+    <!-- Секция "Отзывы" -->
+
+    <section class="reviews_section">
+        <div class="reviews">
+
+            <div class="reviews_header_section">
+                <h1 class="reviews_header_title">Отзывы</h1>
+            </div>
+
+
+            <div class="reviews_wrap">
+
+                <div class="form_wrap">
+                    <form class="form">
+
+                        <div class="form_group">
+                            <label class="label_title" for="comment-name">Имя</label>
+                            <input type="name" id="comment-name" class="input-name form-control">
+                        </div>
+
+                        <div class="form_group">
+                            <label class="label_title comment_label" for="comment-body">Комментарий</label>
+                            <input type="text" id="comment-body" class="input-comment form-control">
+                        </div>
+
+                        <div class="form_group">
+                            <button type="submit" id="comment-add" class="btn btn-comment">Добавить комментарий</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="comment" class="reviews_wrap_comment">
+                    
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Подвал сайта -->
+
+    <footer class="section_footer">
+        <div class="footer">
+  
+          <div class="aboutUS_link">
+              <a class="about_link" href="#">О компании</a>
+              <a class="about_link" href="#">Доставка и оплата</a>
+              <a class="about_link" href="#">Лента материалов</a>
+              <a class="about_link" href="#">Политика возврата</a>
+          </div>
+  
+          <div class="social_network_link">
+              <p class="network_title">Выберите удобный мессенджер для общения</p>
+              <div>    
+                  <img class="footer_link footer_link_whatsapp" src="main_image/footer_icon/whatsapp.svg" alt="whatsapp">
+                  <img class="footer_link footer_link_telegram" src="main_image/footer_icon/telegram.svg" alt="telegram">
+                  <img class="footer_link footer_link_inst" src="main_image/footer_icon/inst.svg" alt="instagram">
+              </div>
+          </div>
+  
+          <div class="contact_info">
+              <p class="contact_title">Тел: +996 705 188 955 <br>
+                  Тел: +996 555 188 955 <br>
+                  Адрес: Бакаева 126</p>
+          </div>
+  
+        </div>
+      </footer>
+
+    <script src="js/burger.js"></script>
+    <script src="js/reviews.js"></script>
+
+</body>
+</html>

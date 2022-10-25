@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сеты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sets.css">
+</head>
+<body>
+    
+        <!-- Шапка сайта -->
+
+        <header class="header">
+            <div class="header_container">
+    
+                <div class="logo_item">
+                    <a href="index.html"><img class="logo_img" src="main_image/romsem_logo.svg" alt="Логотип: ROMSEM"></a>
+                </div>
+    
+                <div class="working_hours_wrap">
+                    <div class="working">
+                        <div class="working_contact">
+                            <p class="working_contact_title">Наш телефон</p>
+                            <p class="working_contact_subtitle">+996 705 188 955 <br>
+                            +996 555 188 955</p>
+                        </div>
+                        <div class="working_hours">
+                            <img class="working_hours_img" src="main_image/watch_icon.svg" alt="">
+                            <p class="working_hours_title">работаем с 10:00 до 00:00</p>
+                        </div>
+                    </div>
+    
+                    <div class="working_location">
+                        <p class="working_location_title">Город:</p>
+                        <p class="working_location_subtitle">Бишкек</p>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <div class="nav_link">
+                        <a class="nav_link_title" href="index.html">Главная</a>
+                        <a class="nav_link_title" href="reviews.html">Отзывы</a>
+                    </div>
+                </nav>
+    
+    
+                    <div class="btn_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+    
+    
+                    <div class="nav_link_burger">
+                        <a class="nav_link_title_burger" href="index.html">Главная</a>
+                        <a class="nav_link_title_burger" href="reviews.html">Отзывы</a>
+                    </div>
+    
+            </div>
+        </header>
+    
+        <!-- Секция "Сеты" -->
+
+        <section class="section_sets">
+            <div class="sets_wrap">
+                <div class="header_sets_title">
+                    <img src="main_image/main_icon/sets.svg" alt="Сеты">
+                    <h1 class="sets_title">Сеты</h1>
+                </div>
+            </div>
+
+            <div class="sets_container">
+
+                <div class="sets">
+                    <div class="sets_item" id="products-container">
+    
+                    </div>
+                </div>
+
+                <div class="basket">
+                    <div class="basket_wrap">
+
+                        <div class="basket_header">
+                            <h3 class="basket_title">В корзине</h3>
+                        </div>
+
+                        <div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина пуста
+						</div>
+
+
+                        <div class="sets-wrapper">
+
+						</div>
+
+
+                        <div class="delivery_total_wrap">
+
+                            <div data-cart-delivery class="delivery none">
+                                <p class="delivery_title">Доставка: <span class="delivery_subtitle delivery_cost"> бесплатно</span></p>
+                            </div>
+
+                            <div class="total">
+                                <p class="total_title">Итого: </p>
+                                <span class="total_subtitle total-price">0</span>
+                                <span class="currencys">COM</span>
+                            </div>
+
+                        </div>
+
+                        <div id="order_form" class="order_form none">
+                            <h4 class="order_title">Оформить заказ</h4>
+                            <form class="form_basket">
+                                <a href="payment.html" class="btn_form">Заказать</a>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Подвал сайта -->
+    
+        <footer class="section_footer">
+                <div class="footer">
+          
+                  <div class="aboutUS_link">
+                      <a class="about_link" href="#">О компании</a>
+                      <a class="about_link" href="#">Доставка и оплата</a>
+                      <a class="about_link" href="#">Лента материалов</a>
+                      <a class="about_link" href="#">Политика возврата</a>
+                  </div>
+          
+                  <div class="social_network_link">
+                      <p class="network_title">Выберите удобный мессенджер для общения</p>
+                      <div>    
+                          <img class="footer_link footer_link_whatsapp" src="main_image/footer_icon/whatsapp.svg" alt="whatsapp">
+                          <img class="footer_link footer_link_telegram" src="main_image/footer_icon/telegram.svg" alt="telegram">
+                          <img class="footer_link footer_link_inst" src="main_image/footer_icon/inst.svg" alt="instagram">
+                      </div>
+                  </div>
+          
+                  <div class="contact_info">
+                      <p class="contact_title">Тел: +996 705 188 955 <br>
+                          Тел: +996 555 188 955 <br>
+                          Адрес: Бакаева 126</p>
+                  </div>
+          
+                </div>
+        </footer>
+
+
+        <script src="js/basket/renderProducts.js"></script>
+        <script src="js/basket/calcCartPrice.js"></script>
+        <script src="js/basket/toggleCartStatus.js"></script>
+        <script src="js/basket/counter.js"></script>
+        <script src="js/basket/cart.js"></script>
+        <script src="js/basket/orderForm.js"></script>
+        <script src="js/burger.js"></script>
+
+</body>
+</html>

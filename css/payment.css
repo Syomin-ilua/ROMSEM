@@ -1,0 +1,554 @@
+/* Шапка сайта */
+.header {
+    width: 100%;
+}
+.header_container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_item {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo_img {
+    width: 87px;
+    height: 97px;
+}
+.working_hours_wrap {
+    display: flex;
+    align-items: center;
+}
+.working {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #A4ACAD;
+}
+.working_contact {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.working_contact_title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.working_contact_subtitle {
+    font-size: 14px;
+    color: #FF9846;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.working_hours {
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+.working_hours_img {
+    margin-right: 5px;
+}
+.working_hours_title {
+    font-family: 'Open Sans', sans-serif;
+    color: #A4ACAD;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.working_location {
+
+}
+.working_location_title {
+    font-family: 'Open Sans', sans-serif;
+    color: #A4ACAD;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+}
+.working_location_subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+}
+.btn_burger {
+    display: none;
+}
+.nav_link_burger {
+    display: none;
+}
+.nav_link_title {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+.nav_link_title:hover {
+    color: #FF9846;
+    transition: all 0.2s;
+}
+
+/* Секция "Доставка и оплата" */
+
+.payment_section {
+    width: 100%;
+}
+.payment_title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.order_details {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.order_title {
+    font-family: 'Open Sans', sans-serif;
+}
+.order_comment {
+    font-family: 'Open Sans', sans-serif;
+}
+.order_details {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.order_title {
+}
+.details {
+    width: 100%;
+}
+.sets_out {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.set {
+    width: 495px;
+    height: 150px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #A4ACAD;
+    border-radius: 5px;
+}
+.product-img {
+    width: 160px;
+    height: 150px;
+}
+.set_image {
+}
+.title_wrap {
+}
+.cart_title {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.item-title {
+}
+.price__weight {
+}
+.structur_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+.price {
+}
+.price__currency {
+    font-family: 'Open Sans', sans-serif;
+}
+.items_current {
+    font-family: 'Open Sans', sans-serif;
+}
+.delivery_title {
+    font-family: 'Open Sans', sans-serif;
+}
+.total_title {
+    font-family: 'Open Sans', sans-serif;
+}
+.payment {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.payment_title_form {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.payment_form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap_input_control {
+    margin-bottom: 15px;
+}
+.input_control {
+    width: 170px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    outline: none;
+}
+.input_tel {
+}
+.input_name {
+}
+.payment_method_wrap {
+}
+.payment_method_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.comment_order {
+    font-family: 'Open Sans', sans-serif;
+}
+.additionally {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.additionally_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.counter_wrapper {
+    display: flex;
+}
+.items__control {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.items__control_minus {
+    margin-right: 5px;
+    border: 1px solid #000;
+    font-family: 'Open Sans', sans-serif;
+}
+.items__control_plus {
+    background-color:#FF9846;
+    color: #fff;
+    margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.items__current {
+    font-family: 'Open Sans', sans-serif;
+}
+.input_promoсode {
+    width: 300px;
+}
+.input_email {
+    width: 300px;
+}
+.input_address {
+    width: 300px;
+}
+.button_submit_order {
+    width: 300px;
+    height: 40px;
+    background-color:#FF9846;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    border: none;
+    margin: 15px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.button_submit_order:hover {
+    background-color:#f8a35e;
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.personal_info_title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 0px;
+}
+
+/* Подвал сайта */
+
+.section_footer {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.footer {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #A4ACAD;
+}
+.aboutUS_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.about_link {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+}
+.about_link:hover {
+    color:#FF9846;
+}
+.social_network_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.network_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+}
+.footer_link {
+    margin-right: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+.footer_link:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.contact_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #A4ACAD;
+}
+
+/* Медиа запросы */
+
+@media(max-width: 1180px) {
+    .header_container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .order_details {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer {
+        width: 95%;
+   }
+}
+@media(max-width: 890px) {
+    .footer {
+        flex-direction: column;
+    }
+    .aboutUS_link {
+        margin-bottom: 10px;
+    }
+    .about_link {
+        text-align: center;
+    }
+    .contact_info {
+        margin-top: 10px;
+    }
+    .contact_title {
+        text-align: center;
+    }
+    .network_title {
+        text-align: center;
+    }
+    .footer_link:nth-child(3) {
+        margin-right: 0px;
+    }
+}
+@media(max-width: 710px) {
+    .set {
+        margin-right: 0px;
+    }
+    .sets_out {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 700px) {
+    .nav {
+        display: none;
+    }
+    .btn_burger {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 23px;
+    }
+    .btn_burger span:nth-of-type(1) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger span:nth-of-type(2) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger span:nth-of-type(3) {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 7px;
+        background-color: #000;
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(1) {
+        transform: translateY(8px) rotate(45deg);
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(2) {
+        transform: rotate(-45deg);
+        transition: all .3s;
+    }
+    .btn_burger.active span:nth-of-type(3) {
+        transition: all .3s;
+        display: none;
+    }
+    .nav_link_burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1001;
+        top: 100px;
+        background-color: #fff;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+    .nav_link_burger.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(0);
+        transition: all 0.3s;
+    }
+    .nav_link_title_burger {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        color: #000;
+        margin-bottom: 30px;
+        transition: all .3s;
+    }
+    .nav_link_title_burger:hover {
+        color: #FF9846;
+        transition: all .3s;
+    }
+    .nav_link_title_burger:nth-child(1) {
+        margin-top: 75px;
+    }   
+}
+@media(max-width: 550px) {
+    .about_link {
+        font-size: 16px;
+    }    
+    .network_title {
+        font-size: 16px;
+    }
+    .contact_title {
+        font-size: 16px;
+    }
+}
+@media(max-width: 510px) {
+    .title_wrap {
+        width: 50%;
+    }
+    .set {
+        justify-content: space-between;
+    }
+}
+@media(max-width: 470px) {
+    .logo_item {
+        width: 70px;
+    }
+    .logo_img {
+        width: 70px;
+    }
+    .working_location {
+        display: none;
+    }
+    .working {
+        border-right: none;
+    }
+    .working_hours {
+        margin-right: 0px;
+    }
+    .working_contact_title {
+        font-size: 12px;
+    }
+    .working_contact_subtitle {
+        font-size: 12px;
+    }
+    .working_hours_title {
+        font-size: 12px;
+    }
+}
+@media(max-width: 390px) {
+    .cart_title {
+        font-size: 14px;
+    }
+    .structur_title {
+        font-size: 12px;
+    }
+    .price__currency {
+        font-size: 12px;
+    }
+    .items_current {
+        font-size: 12px;
+    }
+    .wrap_input_control_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .input_name {
+        margin-top: 15px;
+    }
+    .input_control {
+        width: 290px;
+    }
+}

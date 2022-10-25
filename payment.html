@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <title>Доставка и оплата</title>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+
+    <header class="header">
+        <div class="header_container">
+
+            <div class="logo_item">
+                <a href="index.html"><img class="logo_img" src="main_image/romsem_logo.svg" alt="Логотип: ROMSEM"></a>
+            </div>
+
+            <div class="working_hours_wrap">
+                <div class="working">
+                    <div class="working_contact">
+                        <p class="working_contact_title">Наш телефон</p>
+                        <p class="working_contact_subtitle">+996 705 188 955 <br>
+                        +996 555 188 955</p>
+                    </div>
+                    <div class="working_hours">
+                        <img class="working_hours_img" src="main_image/watch_icon.svg" alt="">
+                        <p class="working_hours_title">работаем с 10:00 до 00:00</p>
+                    </div>
+                </div>
+
+                <div class="working_location">
+                    <p class="working_location_title">Город:</p>
+                    <p class="working_location_subtitle">Бишкек</p>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <div class="nav_link">
+                    <a class="nav_link_title" href="index.html">Главная</a>
+                    <a class="nav_link_title" href="reviews.html">Отзывы</a>
+                </div>
+            </nav>
+
+
+                <div class="btn_burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+                <div class="nav_link_burger">
+                    <a class="nav_link_title_burger" href="index.html">Главная</a>
+                    <a class="nav_link_title_burger" href="reviews.html">Отзывы</a>
+                </div>
+
+        </div>
+    </header>
+
+
+
+    <!-- Секция "Доставка и оплата" -->
+
+    <section class="payment_section">
+        <h2 class="payment_title">Доставка и олата</h2>
+
+        <div class="order_details">
+            <h3 class="order_title">Ваш заказ содержит: </h3>
+            <p class="order_comment">1 шт. = 1 сету</p>
+            <div class="details">
+                
+            </div>
+
+            <div class="details_total">
+                
+            </div>
+        </div>
+
+        <div class="payment">
+            <h3 class="payment_title_form">Ваши данные</h3>
+            <form class="payment_form">
+                <div class="wrap_input_control wrap_input_control_mobile">
+                    <input class="input_control input_tel" id="#tel" type="tel" placeholder="Телефон">
+                
+                    <input class="input_control input_name" id="#name" type="name" placeholder="Имя">
+                </div>
+
+                <div class="wrap_input_control">
+                    <textarea class="comment_order" id="" cols="30" rows="5" placeholder="Комментарий к заказу"></textarea>
+                </div>
+
+                <div class="additionally">
+                    <p class="additionally_title">Палочки + соусник обычные</p>
+                    <div class="counter_wrapper">
+                        <div class="items__control items__control_minus" data-action="minus_adit">-</div>
+                        <div class="items__current" data-counter-adit>10</div>
+                        <div class="items__control items__control_plus" data-action="plus_adit">+</div>
+                    </div>
+                </div>
+
+                <div class="wrap_input_control">
+                    <input class="input_control input_promoсode" type="text" placeholder="Введите промокод">
+                </div>
+
+                <div class="wrap_input_control">
+                    <input class="input_control input_email" id="#email" type="email" placeholder="Email(необязательно)">
+                </div>
+
+                <div class="wrap_input_control">
+                    <input class="input_control input_address" type="text" placeholder="Введите свой адрес">
+                </div>
+
+                <div class="payment_method_wrap">
+                    <p class="payment_method_title">Оплата производиться картой или наличными</p>
+                </div>
+
+                <button class="button button_submit_order">Оформить заказ</button>
+                <p class="personal_info_title">Нажимая на кнопку Оформить заказ, Вы подтверждаете свое согласие на обработку персональных данных в соответствии с Публичной оффертой</p>
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Подвал сайта -->
+
+    <footer class="section_footer">
+        <div class="footer">
+  
+          <div class="aboutUS_link">
+              <a class="about_link" href="#">О компании</a>
+              <a class="about_link" href="#">Доставка и оплата</a>
+              <a class="about_link" href="#">Лента материалов</a>
+              <a class="about_link" href="#">Политика возврата</a>
+          </div>
+  
+          <div class="social_network_link">
+              <p class="network_title">Выберите удобный мессенджер для общения</p>
+              <div>    
+                  <img class="footer_link footer_link_whatsapp" src="main_image/footer_icon/whatsapp.svg" alt="whatsapp">
+                  <img class="footer_link footer_link_telegram" src="main_image/footer_icon/telegram.svg" alt="telegram">
+                  <img class="footer_link footer_link_inst" src="main_image/footer_icon/inst.svg" alt="instagram">
+              </div>
+          </div>
+  
+          <div class="contact_info">
+              <p class="contact_title">Тел: +996 705 188 955 <br>
+                  Тел: +996 555 188 955 <br>
+                  Адрес: Бакаева 126</p>
+          </div>
+  
+        </div>
+      </footer>
+
+
+    <script src="js/order.js"></script>
+    <script src="js/burger.js"></script>
+    
+</body>
+</html>
